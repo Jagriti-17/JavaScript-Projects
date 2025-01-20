@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(img4.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;;
+  color:#fff;
+  background-color: rgba(57,179,250,0.6);
+  background-blend-mode: multiply;
+  font-size: 1.1em;
+  font-family:'poppins', 'sans-serif' ;
+
+}
+
+.heading{
+  text-align: center;
+  width:100%;
+  margin:0px;
+  margin-top:100px;
+}
+  
+#title{
+  font-size: 1.8em;
+}
+
+#description{
+  font-size:18px;
+  margin-top:10px;
+}
+
+#content1{
+  width:90%;
+  margin:auto;
+}
+
+#survey-form{
+  background-color: rgba(0,0,0,0.6);
+  padding-top:33px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width:54%;
+  border-radius:5px;
+  margin:auto;
+  margin-top:10px;
+  padding-bottom:60px;
+}
+#content1 input{
+  width:98.5%;
+  height:2.8em;
+  position:relative;
+  bottom:10px;
+  border:0px;
+  border-radius:5px;
+}
+
+#content2 select{
+  width:98.5%;
+  height:2.8em;
+  position:relative;
+  bottom:10px;
+  border-radius:5px;
+  border:0px;
+}
+
+#content3 input{
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px;
+  vertical-align: middle;
+}
+
+#content4 select{
+  width:98.5%;
+  height:2.8em;
+  position:relative;
+  top:10px;
+  border-radius:5px;
+  border:0px;
+}
+
+#content5{
+  margin-top:10px;
+}
+
+#content5 input{
+  width: 20px;
+  height: 20px;
+  vertical-align:middle;
+  margin: 10px 10px;
+}
+
+#content5  textarea{
+  width:98.5%;
+  height:125px;
+  position:relative;
+  bottom:17px;
+  top:7px;
+}
+
+button{
+  width:98.5%;
+  height:3em;
+  position:relative;
+  top:11px;
+  background-color: rgb(18,219,78);
+  border:none;
+  color:white;
+  margin-bottom:10px;
+  cursor:pointer;
+  font-size:15px;
+  font-style:bold ;
+}
+
+
+textarea::placeholder{
+  font-size: 1.4em;
+  position: relative;
+  top:8px;
+  left:5px;
+  width:70%;
+}
+
+input::placeholder{
+  font-size: 1.1em;
+  position: relative;
+  left:10px;
+  width:50%;
+  font-weight: 500;
+}
+
