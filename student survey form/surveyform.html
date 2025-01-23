@@ -1,3 +1,4 @@
+<<<<<<< HEAD:student survey form/surveyform.html
 <!DOCTYPE html>
 <html lang="en">
   <!--Head-->
@@ -90,3 +91,97 @@
      </form>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="p1.css">
+    <title>Survey Form</title>
+  </head>
+  
+  <!--Body-->
+  <body>
+    <div class="heading">
+      <h1 id="title">Student Survey Form</h1>
+      <p id="description"><i>Thank you for taking the time to help us improve our platform</i></p>
+    </div>
+    <!--Form-->
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+
+      <!--Enter the info-->
+      <div id="content1">
+        <label id="name-label">Name</label><br><br>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required /><br><br>
+        <label id="email-label">Email</label><br><br>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required/><br><br>
+        <label id="number-label">Age(optional)</label><br><br>
+        <input id="number" name="number" placeholder="Enter your age" type="number" min="18" max="25"/><br><br>
+        <label for="Department">Which degree are you pursuing?</label><br><br>
+       
+      <!--Select from dropdown-->
+      <div id="content2">
+        
+        <select id="dropdown" name="dropdown">
+          <option value="">Select current degree</option>
+          <option value="1">BCA</option> 
+          <option value="2">BTech</option> 
+          <option value="3">CMA</option> 
+          <option value="4">CJS</option> 
+          <option value="5">Education</option>  
+        </select>
+      </div>
+      
+      <!--Choose an option-->
+      <br>
+      <div id="content3">
+        <label id="year">Currently in which year?</label><br><br>
+        <input id="1st" type="radio" name="recommend" value="1st" checked>&nbsp&nbsp&nbsp1st<br>
+        <input id="2nd" type="radio" name="recommend" value="2nd" >&nbsp&nbsp&nbsp2nd<br>
+        <input id="3rd" type="radio" name="recommend" value="3rd" >&nbsp&nbsp&nbsp3rd<br>
+        <input id="4th" type="radio" name="recommend" value="4th">&nbsp&nbsp&nbsp4th<br> 
+      </div>
+
+
+      <!--Select from dropdown-->
+      <br>
+      <label id="role">Where are you staying?</label><br>
+      <div id="content4">
+        <select id="dropdown" name="dropdown">
+          <option value="">Select an Option </option>
+          <option value="1">Hostel</option> 
+          <option value="2">PG</option> 
+          <option value="3">Day Scholar</option>   
+        </select>
+      </div>
+       
+      
+
+      <!---Select from checkbox-->
+      <br><br>
+      <label id="club">Have you joined any club?</label><br><br>
+      <div id="content5">
+        
+        <input id="Drama" type="checkbox" name="club" value="Drama"><label for="Drama">&nbsp&nbsp&nbspDrama</label><br><br>
+        <input id="Sports" type="checkbox" name="club" value="Sports" ><label for="Sports">&nbsp&nbsp&nbspSports</label><br><br>
+        <input id="Dance" type="checkbox" name="club" value="Dance"><label for="Dance">&nbsp&nbsp&nbspDance</label>
+        <input id="Art" type="checkbox" name="club" value="Art"><label for="Art">&nbsp&nbsp&nbspArt</label><br><br>
+        <input id="Music Band" type="checkbox" name="club" value="Music Band" ><label for="Music Band">&nbsp&nbsp&nbspMusic Band</label><br><br>
+
+      
+
+      <!--Write you bio-->
+      <br>
+      <label id="bio">Future goals (Describe in 4-5 sentences):</label><br><br>
+      <textarea  name="bio" rows="3" cols="30" placeholder="I want to get my dream job at Microsoft..."></textarea><br><br>
+      
+
+      <!--Submit button-->
+      <button id="submit" type="submit">Submit</button>
+      </div>
+      </div> 
+     </form>
+  </body>
+</html>
+>>>>>>> 2caab12456954093531a9d05c5d6f4d5e9a01887:student survey form/p1 surveyform.html
